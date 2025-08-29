@@ -51,8 +51,7 @@ public class createDfs {
         }
     }
     public static void main(String[] args){
-        int v=7
-        ;
+        int v=7;
         ArrayList<Edge>[] graph = new ArrayList[v];
         addEdge(graph);
         boolean vis[] = new boolean[v];
