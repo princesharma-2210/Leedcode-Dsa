@@ -1,0 +1,9 @@
+marks={
+    "prince":99,
+    "prashant":100,
+    "anup":99
+}
+print(marks.items())
+print(marks.keys())
+print(marks.values())
+print(marks['prince'])

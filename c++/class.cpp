@@ -6,11 +6,12 @@ class Teacher{
     string name;
     string deptName;
     Teacher(){
-        cout<<"hello!";
+        cout<<"hello!"<<endl;
     }
 };
 int main(){
     Teacher t1;
     t1.name= "Ram";
     t1.deptName= "cs";
+    cout<<t1.name<<endl;
 }
